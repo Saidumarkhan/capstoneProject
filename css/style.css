@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* header starts */
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.485)), url(./../img/pexels-miesha-renae-maiden-390573.jpg);
+    background-size: cover;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list-items,.list-icons{
+    display: flex;
+}
+.list-item a, .list-icon a i{
+    color: white;
+    font-size: 20px;
+}
+.list-item{
+    transition: all 0.5s;
+    padding: 20px;
+}
+.list-item:hover{
+    background-color: orange;
+}
+.list-icon{
+    margin-right: 20px;
+}
